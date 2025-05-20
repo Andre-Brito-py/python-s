@@ -12,7 +12,7 @@ while True:
         print('Você só tem cinco dedos... tente novamente!')
         jogador = int(input('Digite um valor: '))
     escolha = str(input('Você quer par ou impar? [P/I]: ')) .upper() .strip()
-    computador = randint(1, 5)
+    computador = randint(1, 6)
     soma = jogador + computador
     
     
